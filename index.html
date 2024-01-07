@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <h1>User Registration Forms</h1>
+    <form>
+        <label for="First Name">First Name:</label>
+        <input type="text" name="First Name" size="19" maxlength="30" id="First Name"><br><br>
+        <label for="Last Name">Last Name:</label>
+        <input type="text" name="Last Name" size="19" maxlength="30" id="Last Name"><br><br>
+        <label for="Password">Password:</label>
+        <input type="text" name="Password" size="19" maxlength="30" id="Password">
+        <p> Bio:
+            <textarea name="Bio" id="" cols="50" rows="3"></textarea></p>
+            <fieldset>
+                <legend>Gender</legend>
+                <input type="radio"name="Gender" value="Male"checked="checked">Male<br>
+                <input type="radio" name="Gender" value="Female">Female<br>
+                <input type="radio" name="Gender" value="Others">Others
+            </fieldset>
+            <fieldset>
+                <legend>Interests</legend>
+                <input type="checkbox" name="Hobby"value="Music">Music <br>
+                <input type="checkbox" name="Hobby"value="Sports" checked="checked">Sports <br>
+                <input type="checkbox" name="Hobby"value="Reading">Reading
+            </fieldset>
+            <p>Country:
+                <select name="devices">
+                    <option value="Only Muslim Countries">Pakistan</option>
+                    <option value="Only Muslim Countries">Palestine</option>
+                    <option value="Only Muslim Countries">Saudi Arabia</option>
+                </select>
+            </p>
+            <p>Preferred Colours:
+                <select name="instrument" size="3" multiple="Multiple">
+                    <option value="Red" checked="checked">Red</option>
+                    <option value="Blue">Blue</option>
+                    <option value="Green">Green</option>
+                    <option value="Yellow">Yellow</option>
+                </select>
+                <p>Profile Picture:
+                    <input type="file">
+                </p>
+                <p>Birthdate:
+                    <input type="date">
+                </p>
+            </p>
+            <label for="Email">Email:</label>
+            <input type="email" name="Email"><br><br>
+            <label for="Website">Website:</label>
+            <input type="text" name="Website"><br><br>
+            <label for="Search">Search:</label>
+            <input type="search" name="Search"><br><br>
+            <button type="submit" value="Submit">Submit</button>
+    </form>
+</body>
+</html>
